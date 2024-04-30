@@ -1,0 +1,93 @@
+.ilogo
+{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main
+{
+    text-align: center;
+    height:100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    position:absolute;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+.contact-form
+{
+    margin: auto;
+    max-width: 800px;
+}
+.contact-info, .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color:#00abf0 ;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: white ;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #00abf0;
+    font-weight: 700;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.contact-form button {
+    background-color: #00abf0;
+    color: #081b29;
+    font-weight: 600 ;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #00e5ff;
+    transition: .5s;
+}

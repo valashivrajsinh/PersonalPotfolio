@@ -1,0 +1,66 @@
+.ilogo
+{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.main
+{
+    margin-top: 50px;
+    height:105vh;
+    width: 160vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    position:absolute;
+}
+.content
+{
+   max-width: 800px;
+}
+
+.content h1
+{
+    color: #00abf0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.content ul
+{ 
+    color: #00abf0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content li
+{
+    color: #ededed;
+    font-size: 16px ;
+    font-weight: 400;
+}
+
+.content footer
+{
+    color: cyan;
+}
+
+.gif1
+{
+    position:absolute;
+    top:0;
+    margin-top: 90px;
+    margin-left: 940px;
+    background:transparent;
+}
+
+.gif2
+{
+    position:absolute;
+    top:0;
+    margin-top: 420px;
+    margin-left: 940px;
+    background:transparent;
+}

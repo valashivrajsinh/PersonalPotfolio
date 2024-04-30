@@ -1,0 +1,51 @@
+.ilogo
+{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main
+{
+    margin-top: 50px;
+    height:180vh;
+    width: 160vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    position:absolute;
+}
+
+.content h1
+{
+    color: #00abf0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.content dt
+{
+    color:#00abf0;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.img1
+{
+    position:absolute;
+    top:0;
+    margin-top: 890px;
+    margin-left: 820px;
+    background:transparent;
+}
+
+.img2
+{
+    position:absolute;
+    top:0;
+    margin-top: 890px;
+    margin-left: 1070px;
+    background:transparent;
+}

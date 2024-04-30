@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+    <header class="header" style="position: static;">
+        <a href="https://www.linkedin.com/in/shivrajsinh-vala-805384257/" class="ilogo"><img style="border-radius: 50%; height: 30px;width: 30px; margin-right: 5px;" src="https://media.licdn.com/dms/image/D4D03AQHdIG810tgw3w/profile-displayphoto-shrink_400_400/0/1707832866807?e=1719446400&v=beta&t=CVAR3UuHymyrEavIMWNynw2lAZz4ONTMsV9siOhiJDo" alt="my image">Shivrajsinh</a>
+    <nav class="navbar">
+        <a href="index.html" >Home</a>
+        <a href="acadamics.html" >Academics</a>
+        <a href="Hobbies.html" >Hobbies</a>
+        <a href="achievement.html" >Achievement</a>
+        <a href="startup.html" >Sartup ideas</a>
+        <a href="slogun.html" >Slogan spectrum</a>
+        <a href="contact.html" >Contact me</a>
+        <a href="feedback.html" class="active">Feedback</a>
+    </nav>
+    </header>
+    <div class="upper">
+    <p>I value your feedback and use it to improve My Website and design. Please take a few minutes to share your thoughts.</p>
+    </div>
+    <form>
+        <div class="heading"><h1>Your Feedback Matters</h1></div>
+        <h3>Rate Your Experience</h3>
+        <ul>
+            <li>
+                <label for="overall">Overall Satisfaction:</label>
+                <select name="overall" id="overall">
+                    <option value="1">Very Dissatisfied</option>
+                    <option value="2">Dissatisfied</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Satisfied</option>
+                    <option value="5">Very Satisfied</option>
+                </select>
+            </li>
+            <li>
+                <label for="ease_of_use">Ease of Use:</label>
+                <select name="ease_of_use" id="ease_of_use">
+                    <option value="1">Very Difficult</option>
+                    <option value="2">Difficult</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Easy to Use</option>
+                    <option value="5">Very Easy to Use</option>
+                </select>
+            </li>
+            </ul>
+
+        <h3>What can I improve?</h3>
+        <ul>
+            <li>
+                <input type="checkbox" name="improvements[]" value="feature1"> Design
+            </li>
+            <li>
+                <input type="checkbox" name="improvements[]" value="feature2"> Functionalities
+            </li>
+            <li>
+                <input type="checkbox" name="improvements[]" value="other"> Other (please specify)
+                <br>
+                <textarea name="improvement_details" rows="4" placeholder="Please elaborate on other improvements"></textarea>
+            </li>
+            </ul>
+
+        <h3>What are your overall thoughts or suggestions?</h3>
+        <textarea name="comments" rows="6" placeholder="Share your feedback here"></textarea><br>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+
+    <p>Thank you for your feedback!</p>
+</body>
+</html>
